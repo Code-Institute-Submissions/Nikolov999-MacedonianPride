@@ -207,6 +207,23 @@ p {
     right: 50px;
 }
 
+#birth,
+#youngadult {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#birth > div,
+#youngadult > div {
+    width: 75%;
+}
+
+#youngadult > div {
+    text-align: end;
+    align-self: flex-end;
+}
+
 }
 
 
@@ -216,4 +233,34 @@ p {
     }
        
     }
+
+    @media screen and (min-width: 1200px){
+        
+        #life {
+            display: flex;
+            flex-direction: row;
+        }
     
+        #life > div {
+            flex: 1;
+        }
+    
+        #birth > div {
+            order: 0
+        }
+    
+        #youngadult {
+            order: 1;
+        }
+    
+        #youngadult > div {
+            align-self: flex-start;
+        }
+    
+        #birth {
+            align-self: flex-end;
+        }
+    }
+        
+    
+        
