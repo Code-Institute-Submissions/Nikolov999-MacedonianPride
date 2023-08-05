@@ -18,6 +18,10 @@ h1, h2, h3{
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 #cover-page {
     background-color: rgba(245, 232, 152, 0.7) ;
     font-size: 130%;
