@@ -105,6 +105,19 @@ main {
     position: relative;
 }
 
+/* Gallery*/
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
+/* Footer */
 #social-networks {
     background-color: yellow;
     text-align: center;
@@ -194,6 +207,8 @@ p {
 
 
 }
+
+
 
 
 
